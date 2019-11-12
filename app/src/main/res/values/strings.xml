@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">智慧支付</string>
+    <string name="user_name">劉土豪</string>
+    <string name="RedEnv">領紅包</string>
+    <string name="BuyItem">買東西</string>
+    <string name="Note">日記簿</string>
+    <string name="UserAvatar"></string>
+    <string name="welcome_app_name">銀髮虛擬支付系統</string>
+    <string name="welcome_login">登入</string>
+    <string name="welcome_intro">歡迎使用</string>
+    <string name="welcome_float">b</string>
+    <string name="a">A</string>
+</resources>

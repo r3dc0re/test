@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/User"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/UserImg"
+        android:layout_width="189dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="57dp"
+        android:contentDescription="@string/UserAvatar"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/darker_gray"
+        tools:srcCompat="@tools:sample/avatars"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/RedEnv"
+        android:layout_width="245dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/btn_style"
+        android:contentDescription="@string/RedEnv"
+        android:text="@string/RedEnv"
+        app:layout_constraintEnd_toEndOf="@+id/user_name"
+        app:layout_constraintStart_toStartOf="@+id/user_name"
+        app:layout_constraintTop_toBottomOf="@+id/user_name" />
+
+    <Button
+        android:id="@+id/BuyItem"
+        android:layout_width="246dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_style"
+        android:contentDescription="@string/BuyItem"
+        android:text="@string/BuyItem"
+        app:layout_constraintEnd_toEndOf="@+id/RedEnv"
+        app:layout_constraintStart_toStartOf="@+id/RedEnv"
+        app:layout_constraintTop_toBottomOf="@+id/RedEnv" />
+
+    <Button
+        android:id="@+id/Note"
+        android:layout_width="252dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_style"
+        android:contentDescription="@string/Note"
+        android:text="@string/Note"
+        app:layout_constraintEnd_toEndOf="@+id/BuyItem"
+        app:layout_constraintStart_toStartOf="@+id/BuyItem"
+        app:layout_constraintTop_toBottomOf="@+id/BuyItem" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/user_name"
+        android:text="@string/user_name"
+        android:textSize="10pt"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/UserImg"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/UserImg"
+        app:layout_constraintTop_toBottomOf="@+id/UserImg"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
