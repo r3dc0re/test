@@ -28,7 +28,6 @@
         android:layout_height="72dp"
         android:layout_marginTop="32dp"
         android:text="@string/welcome_login"
-        android:onClick="login_in"
         android:textSize="9pt"
         android:background="@drawable/btn_style"
         app:layout_constraintEnd_toEndOf="@id/textView2"

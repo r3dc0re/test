@@ -10,33 +10,50 @@
 
         <TableRow>
             <TextView
+                android:id="@+id/acnt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="帳號: " />
+                android:text="@string/acnt" />
+
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:hint="@string/acnt"
+                android:inputType="textWebEmailAddress"
+                android:labelFor="@+id/acnt"
+                android:importantForAutofill="no" />
         </TableRow>
         <TableRow>
             <TextView
+                android:id="@+id/pws"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="密碼: " />
+                android:text="@string/pwd" />
+
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:hint="@string/pwd"
+                android:inputType="textPassword"
+                android:labelFor="@+id/pwd"
+                android:importantForAutofill="no" />
         </TableRow>
     </TableLayout>
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/login_in"
+        android:layout_width="372dp"
         android:layout_height="wrap_content"
-        android:text="登入"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_style"
+        android:text="@string/login_in" />
+
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/login_reg"
+        android:layout_width="373dp"
         android:layout_height="wrap_content"
-        android:text="註冊"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_style"
+        android:text="@string/login_reg" />
 
 </LinearLayout>

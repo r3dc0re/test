@@ -74,5 +74,14 @@
         app:layout_constraintTop_toBottomOf="@+id/UserImg"
         tools:visibility="visible" />
 
+    <TextView
+        android:id="@+id/client_remain"
+        android:layout_width="205dp"
+        android:layout_height="31dp"
+        android:text="@string/client_remain"
+        app:layout_constraintEnd_toEndOf="@+id/user_name"
+        app:layout_constraintStart_toStartOf="@+id/user_name"
+        app:layout_constraintTop_toBottomOf="@+id/user_name" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 

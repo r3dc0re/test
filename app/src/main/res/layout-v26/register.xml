@@ -10,64 +10,112 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="會員註冊"
+            android:text="@string/member_reg"
             android:gravity="center_horizontal"/>
         <TextView
+            android:id="@+id/acnt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="帳號:"/>
+            android:text="@string/acnt" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="no"
+            android:hint="@string/acnt"
+            android:inputType="textWebEmailAddress|text"
+            android:labelFor="@+id/acnt" />
         <TextView
+            android:id="@+id/pwd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="密碼:"/>
+            android:text="@string/pwd"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/pwd"
+            android:inputType="textPassword"
+            android:labelFor="@+id/pwd"
+            android:autofillHints="" />
         <TextView
+            android:id="@+id/pwd_check"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="確認密碼:"/>
+            android:text="@string/pwd_check"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/pwd_check"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:labelFor="@+id/pwd_check" />
         <TextView
+            android:id="@+id/reg_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="姓名:"/>
+            android:text="@string/reg_name"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/reg_name"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:labelFor="@+id/reg_name" />
         <TextView
+            android:id="@+id/reg_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="學號:"/>
+            android:text="@string/reg_id"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/reg_id"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:labelFor="@+id/reg_id" />
         <TextView
+            android:id="@+id/reg_fone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="手機號碼:"/>
+            android:text="@string/reg_fone"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/reg_fone"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:labelFor="@+id/reg_fone" />
         <TextView
+            android:id="@+id/reg_gender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="性別:"/>
+            android:text="@string/reg_gender"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/reg_gender"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:labelFor="@+id/reg_gender" />
         <TextView
+            android:id="@+id/reg_birth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="出生年月日:"/>
+            android:text="@string/reg_birth"/>
+
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="@string/reg_birth"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            android:labelFor="@+id/reg_birth" />
     </LinearLayout>
 
     <LinearLayout
@@ -75,15 +123,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/back"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="返回"
+            android:text="@string/back"
             android:background="@drawable/btn_style"
             android:layout_weight="1"/>
         <Button
+            android:id="@+id/send"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="送出"
+            android:text="@string/send"
             android:background="@drawable/btn_style"
             android:layout_weight="1"/>
     </LinearLayout>

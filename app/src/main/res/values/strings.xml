@@ -6,8 +6,22 @@
     <string name="Note">日記簿</string>
     <string name="UserAvatar"></string>
     <string name="welcome_app_name">銀髮虛擬支付系統</string>
-    <string name="welcome_login">登入</string>
+    <string name="welcome_login">開始</string>
     <string name="welcome_intro">歡迎使用</string>
     <string name="welcome_float">b</string>
     <string name="a">A</string>
+    <string name="member_reg">會員註冊</string>
+    <string name="acnt">帳號:</string>
+    <string name="pwd">密碼:</string>
+    <string name="pwd_check">確認密碼:</string>
+    <string name="reg_name">姓名:</string>
+    <string name="reg_id">學號:</string>
+    <string name="reg_fone">手機號碼:</string>
+    <string name="reg_gender">性別:</string>
+    <string name="reg_birth">出生年月日:</string>
+    <string name="back">返回</string>
+    <string name="send">送出</string>
+    <string name="login_in">登入</string>
+    <string name="login_reg">註冊</string>
+    <string name="client_remain">餘額</string>
 </resources>
